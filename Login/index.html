@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+</head>
+<body>
+    <main>
+      <section class="caja-login">
+        <h1>Ingreso a Zafary</h1>
+        <form class="formulario-login">
+            <input type="text" placeholder="Ingrese correo electrónico" id="email" maxlength="36">
+            <input type="password" placeholder="Ingrese Contraseña" id="pass" maxlength="10">
+            <button type="button" id="btningresar">
+                <h2>INICIAR SESIÓN</h2>
+            </button>
+            <small class="msj-error hide">Correo electrónico y/o Contraseña incorrectos.</small>
+            <small class="msj-adorno">I 🧡 Zafary</small>
+        </form>
+      </section>
+    </main>
+  <script src="./Indexjs.js"></script>
+  </body>
+  </html>
