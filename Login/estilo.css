@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    display: block;
+  }
+  
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .caja-login {
+    width:  450px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    background-color: rgb(233, 252, 255);
+    border: 2px solid rgb(149, 248, 255); 
+  }
+  
+  .caja-login h1 {
+    text-align: center;
+    color: rgb(52, 186, 196);
+  }
+  
+  .formulario-login {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px; 
+  }
+  
+  .formulario-login input {
+    height: 38px;
+    padding: 10px;
+    border-radius: 10px;
+    border: rgb(58, 213, 224) 1px solid;
+  }
+
+  .formulario-login button {
+    height: 38px;
+    border-radius: 10px;
+    background: rgb(52, 186, 196);
+    border: 1px solid rgb(56, 187, 180);
+  }
+
+  .formulario-login button h2{
+    font-size: 15px;
+    margin-top: 8px;
+    color: white;
+  }
+
+  .formulario-login small {
+    text-align: center;
+  }
+
+  .formulario-login button:hover {
+    cursor: pointer;
+    background:rgb(235, 94, 43);
+    border: rgb(204, 72, 24);
+  }
+  
+  .msj-error{
+    font-size: 12px;
+    text-align: center;
+    color: red;
+  }
+
+  .msj-adorno {
+    color: gray;
+  }
+
+  .formulario-login input::placeholder {
+    color: gray;
+    opacity: 50%;
+  }
+
+  .hide {
+    display: none;
+  }
+  
+  
+  .visible {
+    display: block;
+  }
+  
